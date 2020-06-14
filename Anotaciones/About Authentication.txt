@@ -1,0 +1,14 @@
+PARA LA AUTENTICACIÓN DEBEMOS INSTALAR LAS SIGUIENTES DEPENDENCIAS DE PRODUCCION
+
+jwt = jason web token
+bcryptjs = para encriptar las constraseñas
+jsonwebtoken = ayuda con la autenticacion para generar el token que le 
+vamos a devolver al usuario
+
+npm i passport
+npm i @nestjs/passport @nestjs/jwt passport-jwt bcryptjs jsonwebtoken
+
+Una vez acabado ahora ponemos -D de dependencias de desarrollo, y vamos a instalar
+los types 
+
+npm i -D @types/bcryptjs @types/passport @types/passport-jwt
